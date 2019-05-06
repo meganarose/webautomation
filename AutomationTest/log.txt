@@ -1,0 +1,34 @@
+[RemoteTestNG] detected TestNG version 6.14.3
+log4j:ERROR Could not find value for key log4j.appender.stdout
+log4j:ERROR Could not instantiate appender named "stdout".
+At before suite
+driver
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 28371
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 06, 2019 6:22:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Key =travelAppAdminBackEnd
+Key =travelAppFrontEnd
+Key =travelAppSupplierBackEndLogin
+Key =travelAppDemoUrl
+Key =travelAppFrontEndLogin
+Key =travelAppSupplierBackEndPwd
+Key =travelAppAdminBackEndLogin
+Key =travelAppAdminBackEndPwd
+Key =travelAppFrontEndPwd
+Done with reading CSV
+1
+After wait ++++++Tokyo
+calling second method
+External Careers
+At after suite
+
+===============================================
+Suite
+Total tests run: 3, Failures: 0, Skips: 0
+===============================================
+
+Passed tests for suite 'Suite' is:3
+Failed tests for suite 'Suite' is:0
+Skipped tests for suite 'Suite' is:0

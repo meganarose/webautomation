@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Job Searched Successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12510" started-at="2019-05-06T09:22:05Z" finished-at="2019-05-06T09:22:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12510" started-at="2019-05-06T09:22:05Z" finished-at="2019-05-06T09:22:17Z">
+      <class name="com.framework.testscrips.IndeedJobSearch">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.framework.testscrips.IndeedJobSearch@3159c4b8]" name="beforeSuite" is-config="true" duration-ms="2472" started-at="2019-05-06T09:22:02Z" finished-at="2019-05-06T09:22:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="openWebSite()[pri:0, instance:com.framework.testscrips.IndeedJobSearch@3159c4b8]" name="openWebSite" is-config="true" duration-ms="4676" started-at="2019-05-06T09:22:05Z" finished-at="2019-05-06T09:22:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebSite -->
+        <test-method status="PASS" signature="searchJob(java.util.HashMap)[pri:0, instance:com.framework.testscrips.IndeedJobSearch@3159c4b8]" name="searchJob" duration-ms="6089" started-at="2019-05-06T09:22:09Z" data-provider="dataFromCSV" finished-at="2019-05-06T09:22:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{JobLocation=Tokyo, Sno=1, JobTitle=QA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Job Searched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchJob -->
+        <test-method status="PASS" signature="selectOpenJobs()[pri:0, instance:com.framework.testscrips.IndeedJobSearch@3159c4b8]" name="selectOpenJobs" duration-ms="1667" started-at="2019-05-06T09:22:15Z" depends-on-methods="com.framework.testscrips.IndeedJobSearch.searchJob" finished-at="2019-05-06T09:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectOpenJobs -->
+        <test-method status="PASS" signature="verifyJobAppeared()[pri:0, instance:com.framework.testscrips.IndeedJobSearch@3159c4b8]" name="verifyJobAppeared" duration-ms="37" started-at="2019-05-06T09:22:17Z" depends-on-methods="com.framework.testscrips.IndeedJobSearch.selectOpenJobs" finished-at="2019-05-06T09:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJobAppeared -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.framework.testscrips.IndeedJobSearch@3159c4b8]" name="afterSuite" is-config="true" duration-ms="114" started-at="2019-05-06T09:22:22Z" finished-at="2019-05-06T09:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.framework.testscrips.IndeedJobSearch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
